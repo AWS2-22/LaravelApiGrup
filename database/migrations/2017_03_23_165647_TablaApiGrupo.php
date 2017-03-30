@@ -13,7 +13,7 @@ class TablaApiGrupo extends Migration
      */
     public function up()
     {
-        Schema::create('naixements', function(Blueprint $table) {
+        Schema::create('dosriuses', function(Blueprint $table) {
             $table->increments("id");
             $table->integer("any");
             $table->integer("homes");
